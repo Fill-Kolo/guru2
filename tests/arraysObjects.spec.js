@@ -28,6 +28,8 @@ const getRandomUser = () => {
 	return people;
 };
 
+//
+
 test('Авторизованный пользователь может просмотреть список статей', async ({
 	page,
 }) => {
